@@ -1,6 +1,6 @@
-let  initialState = {
-    count : 0
-}
+// let  initialState = {
+//     count : 0
+// }
 
 const counterReducer = (state, action) =>{
     switch(action.type) {
