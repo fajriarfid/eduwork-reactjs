@@ -2,7 +2,7 @@ let  initialState = {
     count : 0
 }
 
-const counterReducer = (state, actions) =>{
+const counterReducer = (state, action) =>{
     switch(action.type) {
         case 'INC':
             return{
