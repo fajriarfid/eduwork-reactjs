@@ -1,6 +1,7 @@
 import { combineReducers, createStore } from "redux";
 import counterReducer from "./Features/Counter/reducer";
 
+
 let rootReducers =combineReducers({
     counter : counterReducer
 });
